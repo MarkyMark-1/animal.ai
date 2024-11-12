@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+/* src/App.css or src/fonts.css */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('./fonts/Silkscreen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* src/App.css */
+
+/* Default body font (Roboto) */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Silkscreen font for main headings */
+h1.main-heading, .top-heading {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Roboto font for other headings */
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bold weight */
+  color: #333;
+}
+
+/* Roboto font for paragraph text */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.6;
+}
+/* src/App.css */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('./fonts/Silkscreen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* src/App.css */
+
+/* Use Roboto for all default text (body, paragraphs, buttons) */
+body, p, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular weight for standard text */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Silkscreen for all main headings */
+h1, h2 {
+  font-family: 'Silkscreen', sans-serif;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Specific font styles for different heading levels */
+h1 {
+  font-size: 36px; /* Larger size for primary top heading */
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 28px; /* Slightly smaller for secondary headings */
+  font-weight: normal;
+}
+
+/* Roboto for all other headings, styled for consistency */
+h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bold weight for smaller headings */
+  color: #333;
+}
+
+/* Apply Roboto to paragraph text */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Roboto for buttons and any form elements */
+button, input, select, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+

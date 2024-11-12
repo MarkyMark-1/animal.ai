@@ -1,0 +1,52 @@
+/* src/Contact.css */
+
+.contact-page {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+
+  .contact-page-collaborators{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .collaborators-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .collaborator {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
